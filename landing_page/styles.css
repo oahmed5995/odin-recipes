@@ -1,3 +1,56 @@
 * {
-    outline: 2px solid red;
-  }
+outline: 2px solid red;
+
+
+}
+
+
+.itemContainer{
+  display: flex;
+
+}
+
+.itemContainer h1{
+  flex: 1;
+  
+}
+
+.headerLogo {
+  width: 60%;
+}
+
+.headerLogo h1 {
+  text-align: center;
+}
+
+.headerLink {
+  text-align: center;
+}
+
+.titleContainer{
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+
+.titleContainer div {
+  justify-content: center;
+  width: 37.5%;
+}
+.titleImage {
+  align-items: center;
+  width: 37.5%;
+}
+
+.infoModule {
+  display: flex;
+}
+
+.signupBanner {
+  display: flex;
+  align-items: center;
+}
+
+.signupBanner h2 {
+  text-align: center;
+}
